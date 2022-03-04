@@ -1,0 +1,292 @@
+/* -------------- */
+/* Global Styling */
+/* -------------- */
+/* Imports the Poppins font from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;100&display=swap");
+
+/* Resets the default browser behavior */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  /* to enable the smoothe scroling in css. */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* space between the lines. */
+  line-height: 2;
+  /* text color */
+  color: black;
+  /* sets the background color */
+  background: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -------------- */
+/* Navbar styling */
+/* -------------- */
+header nav {
+    background-color: #018FB7;
+    color: white;
+    /* this flex is used to put the logo and the menu side by side */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 65px;
+    width: 100%;
+    /* The following is used for sticky effect of header */
+    position: fixed;
+    /* text shadow was taken from css-tricks codepen page: https://codepen.io/chriscoyier/pen/DqQpJD */
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+header img {
+    width: 80px;
+    /* border-radius is used to round the edges. */
+    border-radius: 10px;
+}
+
+nav ul {
+    /* This flex is used to put the list items side by side */
+    display: flex;
+    /* used to wrap the menu for smaller screens */
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: #ffffff;
+    margin: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* ------------ */
+/* Home-Section */
+/* ------------ */
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #01B1E2;
+    color: #fff;
+    /* The viewport is the user's visible area of a web page. */
+    /* vh stands for 1% of the viewport's height. */
+    height: 100vh;
+}
+
+.home-section img {
+    width: 330px;
+    border-radius: 85px;
+}
+
+.home-section h1 {
+    font-size: 45px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+} 
+
+.home-section h2 {
+    font-size: 35px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.home-section h3 {
+    font-size: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* ------------------ */
+/* basic info section */
+/* ------------------ */
+.basic-info-section {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.basic-info-section h2 {
+    font-size: 45px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.basic-info-image img{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.basic-info-section ul {
+    padding-left: 0;
+}
+
+#language-indent {
+    padding-left: 40px ;
+}
+
+.basic-info-section ul li i::before {
+    color: #01B1E2;
+}
+
+.basic-info-section ul ul li::before {
+    content: "🗣 ";
+    color: #01B1E2;
+}
+
+/* ----------------- */
+/* Official Education Section */
+/* ----------------- */
+.education-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.education-section img {
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.education-section h2 {
+    font-size: 45px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.education-section li i::before {
+    color: #01B1E2;
+}
+
+/* -------------------- */
+/* Self-studies Section */
+/* -------------------- */
+.self-studies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.self-studies img {
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.self-studies h2 {
+    font-size: 45px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.self-studies ul li i::before {
+    color: #01B1E2;
+}
+
+/* --------------- */
+/* Work Experience Section */
+/* --------------- */
+.work-experience-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.work-experience-section img {
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.work-experience-section h2 {
+    font-size: 45px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.work-experience-section ul li i::before {
+    color: #01B1E2;
+}
+
+/* ---------------------- */
+/* DevOps Journey Section */
+/* ---------------------- */
+.mydevopsjourney-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.mydevopsjourney-section img {
+    height: 250px;
+}
+
+.mydevopsjourney-section h2 {
+    font-size: 45px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.mydevopsjourney-section p i {
+    color: #01B1E2;
+}
+
+/* ---------------- */
+/* Footer - Contact */
+/* ---------------- */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #333;
+    color: white;
+    padding-top: 40px;
+    height: 150px;
+}
+
+.footer a {
+    color: white;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+  color: lightblue;
+}
+
+/* -------- */
+/* Arrow UP */
+/* -------- */
+.arrow-up {
+    display: flex;
+    justify-content: end;
+    background-color: #333;
+}
+
+.arrow-up i {
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.arrow-up i:hover {
+  color: lightblue;
+}
+
