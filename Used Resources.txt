@@ -1,0 +1,62 @@
+Main source of inspiration:
+Video:
+    https://www.youtube.com/watch?v=3YW65K6LcIA
+Codepen:
+    https://codepen.io/bradtraversy/pen/JjrzzOW?editors=1100
+
+Flexbox resources:
+1. The flexbox assignment - helped to learn flex in a simpler way than travery media.
+2. A Complete Guide to Flexbox:
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+New things:
+1. Header -> position: fixed;
+2. scroll-behavior: smooth;
+3. height: 100vh;
+
+Color scheme:
+1. A picture of sample resume in inspiring folder
+
+Fonts:
+1. Google Fonts
+2. Fontawesome
+
+Emojis:
+1. Windows 10 Emojis
+2. Fontawesome
+3. Google Fonts
+
+To find the shade of colors:
+https://coolors.co/
+
+Box shadow:
+Traversy media codepen
+
+navbar position fix & width:100vh :
+https://youtu.be/EdGIdWM0XI8?t=88
+
+link :hover:
+traversy media
+
+Text shadow:
+google search
+    codepen text-shadow
+        https://css-tricks.com/almanac/properties/t/text-shadow/
+        https://codepen.io/chriscoyier/pen/DqQpJD
+
+Smooth scroll:
+MDN documentation
+
+List pseudo select - :before - CSS-tricks - Codepen:
+https://css-tricks.com/list-style-recipes/#aa-emoji-bullets
+https://codepen.io/chriscoyier/pen/jObrVgE
+
+Photos:
+evento elements
+
+Documentation used:
+1. MDN
+2. W3 school
+
+Media query:
+- Not used because of the lack of time.
